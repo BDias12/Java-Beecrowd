@@ -18,10 +18,8 @@ public class Main {
 
         int MaiorAB = (a + b + abs(a-b))/2;
 
-        if(MaiorAB > c){
-            System.out.printf("%d eh o maior\n", MaiorAB);
-        } else{
-            System.out.printf("%d eh o maior\n", c);
-        }
+        int maior = (MaiorAB + c + abs(MaiorAB - c))/2;
+
+        System.out.printf("%d eh o maior\n", maior);
     }
 }
